@@ -1,0 +1,14 @@
+%YAML 1.2
+---
+URL_LIST :
+    -
+        name : "ip66"
+        module : "ip_proxy.spiders.ip66"
+        class : "Ip66Spider"
+        type : "cron"
+        time :
+            hour : '*/2'
+            minute : 0
+        id : "ip66"
+        coalesce : 0
+        max_instances : 1
