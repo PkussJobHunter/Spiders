@@ -1,6 +1,6 @@
 # coding = utf-8
 
-from utils.sqlalchemy import DBSession, User
+from .sqlalchemy import DBSession, User
 
 if __name__ == '__main__':
     # 创建Session:
